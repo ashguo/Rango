@@ -56,4 +56,4 @@ class UserForm(forms.ModelForm):
 class UserProfileForm(forms.ModleForm):
     class Meta:
         model = UserProfile
-        fields = ('wrbsite', 'picture')
+        fields = ('website', 'picture')
